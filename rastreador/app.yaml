@@ -1,14 +1,15 @@
-runtime: python37
+runtime: python38
+env: flex
 
-api_version: 1
-threadsafe: true
+#api_version: 1
+#threadsafe: true
 
 handlers:
 - url: /static
   static_dir: static
 - url: /.*
-  script: main.app
+  script: auto
   
-libraries:
-  - name: ssl
-    version: latest
+# libraries:
+#   - name: ssl
+#     version: latest
