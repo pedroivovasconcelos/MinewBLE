@@ -1,5 +1,4 @@
 runtime: python38
-env: flex
 
 #api_version: 1
 #threadsafe: true
